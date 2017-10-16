@@ -1,0 +1,26 @@
+-> FC oldfile newfile 
+	compares two Files which are contained in the same Folder on the command line
+
+-> git log 
+	(shows all the commits)
+	 for each commit it shows an id, an author, a date and a message what has been changed)
+	 
+-> git diff firstid secondid   
+	compares different versions of a file within git
+	
+Sometimes it use useful to handle files in a repository (Files are realted to each other)
+
+-> git log --stat
+	provides a statistic about which file has changed in each commit
+	green + signs indicate additions
+	red - signs indicate deletions
+	
+-> git clone "link"
+	Clones a complete repository into the folder you're in
+	
+-> git config --global clor.ui auto
+	Changes the settings of git to make the changes in color
+	
+-> git checkout 
+	You can switch to an older version which you comitted
+	
