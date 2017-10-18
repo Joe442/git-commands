@@ -2,4 +2,36 @@
 	Initializes a new repository
 
 -> git status
-	Shows the status of a repository
+	Shows the status of the staging area and the working directory you're currently in
+	
+-> git add
+	If you created a new repository with git init and you have untracked files inside of it then you 
+	can put it in the staging area with git add. After that the files in the staging area can be commited. 
+	
+Staging area is like an area between the repository and the working directory
+
+-> git commit -m "Commit Message"
+	Makes a commit with a commit message
+
+-> git diff
+	Compares the working directory with the staging area
+
+-> git diff --staged
+	Compares the staging area with the most resent commit in the repository
+	
+-> git diff commit1 commit2
+	Compares two commits in the repository
+	
+-> git checkout master
+
+
+Branches are good if you want wo add experimental features to your application
+
+-> git branch 
+	Shows the current branches
+	
+-> git branch argument
+	Creates a new branch named argument for example easy mode
+	
+	
+	

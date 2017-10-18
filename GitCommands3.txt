@@ -1,1 +1,14 @@
+Git has a concept of a remote repository. This let you store the location of a repository that you
+will want to send and receive new commits to and from. You can push data and pull data (branches)
 
+-> git remote
+	Shows all the current remotes
+
+-> git remote add origin url
+	creates a remote called origin on the url
+
+-> git remote -v
+	shows the url where you can fetch und pull data from
+
+-> git push origin master
+	pushes the master branch on the remotegit
